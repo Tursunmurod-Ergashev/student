@@ -20,10 +20,6 @@ a {
 li {
     list-style: none;
 }
-.container{
-border: 2px solid red;
-}
-
 .scoot-title {
     color: rgb(73, 85, 103);
     font-size: 33px;
