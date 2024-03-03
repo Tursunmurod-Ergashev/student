@@ -20,6 +20,9 @@ a {
 li {
     list-style: none;
 }
+.container{
+border: 2px solid red;
+}
 
 .scoot-title {
     color: rgb(73, 85, 103);
@@ -80,7 +83,7 @@ li {
 }
 
 .wrapper {
-    background-image: url("./img/Bitmap.jpg");
+    background-image: url("./img/Bitmap.jpg"),url("./img/Group\ 32.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -188,7 +191,7 @@ li {
     text-align: left;
     width: 320px;
     height: 100px;
-    padding-top: 27px;
+    padding-top: 8px;
 }
 
 .col-img {
@@ -215,7 +218,6 @@ li {
     width: 445px;
     height: 96px
 }
-
 .wrap-text {
     color: rgb(147, 156, 170);
     font-size: 15px;
@@ -251,17 +253,17 @@ cursor: pointer;
 .wrap-img{
     position: absolute;
     top: 68%;
-    left: 53%;
+    left: 50%;
 }
 .wrap-png{
     position: absolute;
     top: 14%;
-    left: 83%;
+    left: 50%;
 }
 .wrap{
     background-image: url("./img/Mask.png");
     background-repeat: no-repeat;
-    background-position: top 55% left 90%;
+    background-position: top 55% left 98%;
 }
 .sity .container{
     display: flex;
@@ -317,9 +319,6 @@ cursor: pointer;
     position: absolute;
     top: 5%;
     left: -49%;
-}
-.sity{
-  background-image: url("");
 }
 .footer{
     background: rgb(73, 85, 103);
